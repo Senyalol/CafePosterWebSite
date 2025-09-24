@@ -1,0 +1,4 @@
+CREATE TABLE info(
+    id SERIAL PRIMARY KEY ,
+    info VARCHAR(5000) NOT NULL
+);

@@ -1,0 +1,4 @@
+CREATE TABLE image_cafe(
+    id SERIAL PRIMARY KEY,
+    image VARCHAR(1000) NOT NULL
+);

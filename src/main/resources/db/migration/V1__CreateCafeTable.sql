@@ -1,0 +1,4 @@
+CREATE TABLE cafe(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(500) NOT NULL
+);

@@ -1,0 +1,8 @@
+CREATE TABLE production(
+  id SERIAL PRIMARY KEY ,
+  name VARCHAR(255) NOT NULL ,
+  type VARCHAR(100) NOT NULL,
+  photo VARCHAR(1000),
+  info VARCHAR(2000),
+  price VARCHAR(100)
+);
