@@ -73,7 +73,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			<version>3.4.1</version>
 		</dependency>
 		<!-- Spring JPA -->
 
@@ -81,7 +80,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>3.4.1</version>
 		</dependency>
 		<!-- Для контроллеров -->
 
