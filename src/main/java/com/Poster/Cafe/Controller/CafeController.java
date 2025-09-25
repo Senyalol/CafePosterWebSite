@@ -2,11 +2,13 @@ package com.Poster.Cafe.Controller;
 
 import com.Poster.Cafe.DTO.CafeDTO;
 import com.Poster.Cafe.Service.CafeService;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Transactional
 @RestController
 @RequestMapping("/api/cafe")
 public class CafeController {

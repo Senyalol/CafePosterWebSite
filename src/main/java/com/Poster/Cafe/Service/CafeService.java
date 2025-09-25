@@ -45,7 +45,7 @@ public class CafeService {
         if(cafeDTO.getName() != null){
 
             myCafe.setName(cafeDTO.getName());
-            LOGGER.info("Название кафе успешно обновлено с ", oldName, " на ", cafeDTO.getName());
+            LOGGER.info("Название кафе успешно обновлено с {} на {} ", oldName, cafeDTO.getName());
             cafeRepository.save(myCafe);
 
         }
